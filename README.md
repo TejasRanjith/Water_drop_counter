@@ -70,7 +70,7 @@ The system begins by accepting a video input through the Streamlit interface, ty
 *Explain what the video demonstrates*
 
 ## Team Contributions
-- Abina NJ: idea,User Interface
+- Abina NJ: Idea,User Interface,Streamlit Hosting
 - [Name 2]: Detection Algorithm,Dataset Acquisition
 
 ---

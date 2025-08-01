@@ -38,15 +38,34 @@ For Hardware:
 - Mounting Frame – Alignment and stability
 
 ### Implementation
-For Software:
+This project uses Streamlit for a sleek web interface and OpenCV for counting water droplets in uploaded videos. It's designed to be minimal, aesthetic, and a little chaotic just the way useless projects should be 😉
+
 # Installation
-[commands]
+git clone https://github.com/your-username/water-drop-counter.git
+cd water-drop-counter
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
 
 # Run
 [commands]
 
 ### Project Documentation
-For Software:
+## 📚 Project Documentation
+
+The project consists of the following key files and folders:
+
+- `main.py`: The Streamlit app file. Handles UI layout, file upload, video playback, and calling the droplet counter.
+- `droplet_counter.py`: Contains the logic for detecting and counting water droplets using OpenCV.
+- `static/bg.mp4`: A looping aesthetic video that plays in the background of the app for ✨vibes✨.
+- `assets/style.css`: Custom styles for fonts, buttons, and layout. Contains the CSS for transparent UI and centered buttons.
+- `requirements.txt`: Lists all Python dependencies required to run the app.
+- `README.md`: You're reading it 😉 Contains instructions, description, and documentation.
+
+The app uses Streamlit's front-end magic and OpenCV's computer vision capabilities to analyze uploaded videos and count water drops in real-time.
+
+
 
 # Screenshots (Add at least 3)
 

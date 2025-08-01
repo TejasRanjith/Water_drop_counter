@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pallathulli Peruvalam</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .title {
+            font-size: 2.7rem;
+            text-shadow: 2px 2px 10px #000;
+            margin-bottom: 2rem;
+        }
+        .counter-display {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .upload {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+    </video>
+    <div class="centered">
+        <div class="title">Pallathulli Peruvalam 💧</div>
+        <form class="upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="video" accept="video/*" required>
+            <br><br>
+            <button type="submit">Upload</button>
+        </form>
+        {% if drop_count is not none %}
+            <p class="counter-display">💧 Drop Count: {{ drop_count }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

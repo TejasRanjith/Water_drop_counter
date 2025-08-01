@@ -71,7 +71,7 @@ The system begins by accepting a video input through the Streamlit interface, ty
 
 ## Team Contributions
 - Abina NJ: Idea,User Interface,Streamlit Hosting
-- [Name 2]: Detection Algorithm,Dataset Acquisition
+- Tejas Ranjith: Detection Algorithm,Dataset Acquisition
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 

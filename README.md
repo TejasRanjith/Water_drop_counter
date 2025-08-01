@@ -49,14 +49,10 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1080" alt="Screenshot (402)" src="https://github.com/user-attachments/assets/2260fba3-1fd9-4160-972d-20f395214038" />
+<img width="1920" height="1080" alt="Screenshot (400)" src="https://github.com/user-attachments/assets/162d7d11-d729-4be6-a7dc-8711e9468f2d" />
+<img width="1920" height="1080" alt="Screenshot (406)" src="https://github.com/user-attachments/assets/2753eb1c-bddb-4d99-a5e4-083fbdd365f8" />
 
 # Diagrams
 <img width="2467" height="1049" alt="diagram-export-8-2-2025-2_26_38-AM" src="https://github.com/user-attachments/assets/a3b39b34-3085-4b48-ae8a-34109e7a85d6" />

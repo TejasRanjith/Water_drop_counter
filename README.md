@@ -59,40 +59,19 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="2467" height="1049" alt="diagram-export-8-2-2025-2_26_38-AM" src="https://github.com/user-attachments/assets/a3b39b34-3085-4b48-ae8a-34109e7a85d6" />
+🔄 Project Flow Description:
+The system begins by accepting a video input through the Streamlit interface, typically showing an IV drip releasing water droplets. The uploaded video is processed using OpenCV, where each frame is analyzed in real time. Image preprocessing steps like grayscale conversion, blurring, and thresholding are applied to detect contours. These contours are filtered based on shape properties to identify actual droplets. For every valid detection, a droplet counter is incremented and displayed dynamically on the UI. Finally, the result — total droplets counted — is showcased with an aesthetic, interactive interface, all backed by the logic in the flowchart.
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Abina NJ: idea,User Interface
+- [Name 2]: Detection Algorithm,Dataset Acquisition
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 

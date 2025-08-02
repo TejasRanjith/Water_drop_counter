@@ -48,9 +48,6 @@ source venv/bin/activate    # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 
-# Run
-[commands]
-
 ### Project Documentation
 ## 📚 Project Documentation
 
@@ -81,8 +78,10 @@ The system begins by accepting a video input through the Streamlit interface, ty
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+https://github.com/user-attachments/assets/66028072-4676-4bb8-b311-00f67442b113
+
+This Video shows the working of our site which counts water droplets.
 
 ## Team Contributions
 - Abina NJ: Idea,User Interface,Streamlit Hosting

@@ -75,6 +75,10 @@ The app uses Streamlit's front-end magic and OpenCV's computer vision capabiliti
 🔄 Project Flow Description:
 The system begins by accepting a video input through the Streamlit interface, typically showing an IV drip releasing water droplets. The uploaded video is processed using OpenCV, where each frame is analyzed in real time. Image preprocessing steps like grayscale conversion, blurring, and thresholding are applied to detect contours. These contours are filtered based on shape properties to identify actual droplets. For every valid detection, a droplet counter is incremented and displayed dynamically on the UI. Finally, the result — total droplets counted — is showcased with an aesthetic, interactive interface, all backed by the logic in the flowchart.
 
+# Toool used
+![WhatsApp Image 2025-08-02 at 06 17 10_15388a00](https://github.com/user-attachments/assets/92f29316-7b1f-4349-add2-2d02d892a316)
+
+
 
 ### Project Demo
 # Video

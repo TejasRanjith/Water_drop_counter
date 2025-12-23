@@ -1,100 +1,228 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+<div id="top">
 
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-# pallathuli Peruvellam 🎯
+<img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
 
+# WATER_DROP_COUNTER
 
-## Basic Details
-### Team Name: Banana Engineers
+<em></em>
 
+<!-- BADGES -->
+<!-- local repository, no metadata badges. -->
 
-### Team Members
-- Member 1: Abina NJ - Jyothi Engineering College
-- Member 2: Tejas Ranjith - Jyothi Engineering College
+<em>Built with the tools and technologies:</em>
 
-### Project Description
-Pallathulli Peruvalam is a quirky Streamlit project that counts water droplets manually or from a video using OpenCV. With a soothing background and minimalist UI, it blends tech and humor to create the most beautifully useless tool ever. 💧✨
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style=default&logo=Python&logoColor=white" alt="Python">
 
-### The Problem (that doesn't exist)
-How many water droplets does it take to fill a glass?
-
-### The Solution (that nobody asked for)
-We built Pallathulli Peruvalam, a dramatically overengineered solution using Streamlit, OpenCV, and a moody aesthetic to count literal water droplets in real time.
-
-Just upload a video of your IV drip—or better, watch them fall live—and we’ll tell you exactly how many droplets you've wasted contemplating life. All wrapped in a poetic UI that makes hydration feel... cinematic. 🎥💧✨
-
-## Technical Details
-### Technologies/Components Used
-For Software:
-- Python – Core programming language
-- OpenCV (cv2) – Video processing and computer vision
-- NumPy – Array operations (implicitly via OpenCV)
-- time – Built-in Python module for timing
-
-For Hardware:
-- 30–60 FPS Camera – e.g., smartphone or USB webcam
-- Modified IV Dripper – Controlled drop release
-- Collection Vessel – Standard cups or beakers
-- Mounting Frame – Alignment and stability
-
-### Implementation
-This project uses Streamlit for a sleek web interface and OpenCV for counting water droplets in uploaded videos. It's designed to be minimal, aesthetic, and a little chaotic just the way useless projects should be 😉
-
-# Installation
-git clone https://github.com/your-username/water-drop-counter.git
-cd water-drop-counter
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-
-### Project Documentation
-## 📚 Project Documentation
-
-The project consists of the following key files and folders:
-
-- `main.py`: The Streamlit app file. Handles UI layout, file upload, video playback, and calling the droplet counter.
-- `droplet_counter.py`: Contains the logic for detecting and counting water droplets using OpenCV.
-- `static/bg.mp4`: A looping aesthetic video that plays in the background of the app for ✨vibes✨.
-- `assets/style.css`: Custom styles for fonts, buttons, and layout. Contains the CSS for transparent UI and centered buttons.
-- `requirements.txt`: Lists all Python dependencies required to run the app.
-- `README.md`: You're reading it 😉 Contains instructions, description, and documentation.
-
-The app uses Streamlit's front-end magic and OpenCV's computer vision capabilities to analyze uploaded videos and count water drops in real-time.
-
-
-
-# Screenshots (Add at least 3)
-
-<img width="1920" height="1080" alt="Screenshot (402)" src="https://github.com/user-attachments/assets/2260fba3-1fd9-4160-972d-20f395214038" />
-<img width="1920" height="1080" alt="Screenshot (400)" src="https://github.com/user-attachments/assets/162d7d11-d729-4be6-a7dc-8711e9468f2d" />
-<img width="1920" height="1080" alt="Screenshot (406)" src="https://github.com/user-attachments/assets/2753eb1c-bddb-4d99-a5e4-083fbdd365f8" />
-
-# Diagrams
-<img width="2467" height="1049" alt="diagram-export-8-2-2025-2_26_38-AM" src="https://github.com/user-attachments/assets/a3b39b34-3085-4b48-ae8a-34109e7a85d6" />
-🔄 Project Flow Description:
-The system begins by accepting a video input through the Streamlit interface, typically showing an IV drip releasing water droplets. The uploaded video is processed using OpenCV, where each frame is analyzed in real time. Image preprocessing steps like grayscale conversion, blurring, and thresholding are applied to detect contours. These contours are filtered based on shape properties to identify actual droplets. For every valid detection, a droplet counter is incremented and displayed dynamically on the UI. Finally, the result — total droplets counted — is showcased with an aesthetic, interactive interface, all backed by the logic in the flowchart.
-
-# Toool used
-![WhatsApp Image 2025-08-02 at 06 17 10_15388a00](https://github.com/user-attachments/assets/92f29316-7b1f-4349-add2-2d02d892a316)
-
-
-
-### Project Demo
-# Video
-
-https://github.com/user-attachments/assets/66028072-4676-4bb8-b311-00f67442b113
-
-This Video shows the working of our site which counts water droplets.
-
-## Team Contributions
-- Abina NJ: Idea,User Interface,Streamlit Hosting
-- Tejas Ranjith: Detection Algorithm,Dataset Acquisition
+</div>
+<br>
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
 
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+    - [Project Index](#project-index)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## Overview
 
 
+
+---
+
+## Features
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## Project Structure
+
+```sh
+└── Water_drop_counter/
+    ├── main.py
+    ├── README.md
+    ├── requirements.txt
+    └── static
+        └── bg.mp4
+```
+
+### Project Index
+
+<details open>
+	<summary><b><code>WATER_DROP_COUNTER/</code></b></summary>
+	<!-- __root__ Submodule -->
+	<details>
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<div class='directory-path' style='padding: 8px 0; color: #666;'>
+				<code><b>⦿ __root__</b></code>
+			<table style='width: 100%; border-collapse: collapse;'>
+			<thead>
+				<tr style='background-color: #f8f9fa;'>
+					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
+					<th style='text-align: left; padding: 8px;'>Summary</th>
+				</tr>
+			</thead>
+				<tr style='border-bottom: 1px solid #eee;'>
+					<td style='padding: 8px;'><b><a href='Water_drop_counter/blob/master/main.py'>main.py</a></b></td>
+					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+				</tr>
+				<tr style='border-bottom: 1px solid #eee;'>
+					<td style='padding: 8px;'><b><a href='Water_drop_counter/blob/master/requirements.txt'>requirements.txt</a></b></td>
+					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+				</tr>
+			</table>
+		</blockquote>
+	</details>
+</details>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language:** Python
+- **Package Manager:** Pip
+
+### Installation
+
+Build Water_drop_counter from the source and intsall dependencies:
+
+1. **Clone the repository:**
+
+    ```sh
+    ❯ git clone ../Water_drop_counter
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    ❯ cd Water_drop_counter
+    ```
+
+3. **Install the dependencies:**
+
+<!-- SHIELDS BADGE CURRENTLY DISABLED -->
+	<!-- [![pip][pip-shield]][pip-link] -->
+	<!-- REFERENCE LINKS -->
+	<!-- [pip-shield]: https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white -->
+	<!-- [pip-link]: https://pypi.org/project/pip/ -->
+
+	**Using [pip](https://pypi.org/project/pip/):**
+
+	```sh
+	❯ pip install -r requirements.txt
+	```
+
+### Usage
+
+Run the project with:
+
+**Using [pip](https://pypi.org/project/pip/):**
+```sh
+python {entrypoint}
+```
+
+### Testing
+
+Water_drop_counter uses the {__test_framework__} test framework. Run the test suite with:
+
+**Using [pip](https://pypi.org/project/pip/):**
+```sh
+pytest
+```
+
+---
+
+## Roadmap
+
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+## Contributing
+
+- **💬 [Join the Discussions](https://LOCAL//Water_drop_counter/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://LOCAL//Water_drop_counter/issues)**: Submit bugs found or log feature requests for the `Water_drop_counter` project.
+- **💡 [Submit Pull Requests](https://LOCAL//Water_drop_counter/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your LOCAL account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone Water_drop_counter
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to LOCAL**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://LOCAL{//Water_drop_counter/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=/Water_drop_counter">
+   </a>
+</p>
+</details>
+
+---
+
+## License
+
+Water_drop_counter is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+## Acknowledgments
+
+- Credit `contributors`, `inspiration`, `references`, etc.
+
+<div align="right">
+
+[![][back-to-top]](#top)
+
+</div>
+
+
+[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
+
+
+---
